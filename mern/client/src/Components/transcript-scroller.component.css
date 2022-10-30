@@ -27,11 +27,6 @@
   overflow-x: auto;
  }
 
-@font-face {
-  font-family: "Montserrat";
-  src: url(../../fonts/Montserrat-Italic-VariableFont_wght.ttf);
-}
-
 .title{
   @apply text-center mt-20 mb-6;
   /* font-family: 'Montserrat', sans-serif; */
