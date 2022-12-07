@@ -150,8 +150,6 @@ function StartingIntent() {
         <Scrollbar />
       </div>
       <div className={styles.intentContainer}>
-        {console.log("This is nextQuestions:", nextQuestions)}
-        {console.log("This is currQA.intents:", currQA.intents)}
         {nextQuestions.length === 0 || currQA?.intents?.length === 0 ? (
           <>
             <h3 className={styles.intentTitle}>
