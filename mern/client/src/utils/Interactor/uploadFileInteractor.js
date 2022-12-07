@@ -74,7 +74,6 @@ export default class uploadFileInteractor {
 
   // Loops through the questions list in flow and deletes each item (helper to qaDeleted)
   async removeQAs(flowAllQuestions) {
-    console.log(flowAllQuestions);
     var removed = true;
     for (var i = 0; i < flowAllQuestions.length; i++) {
       try {
