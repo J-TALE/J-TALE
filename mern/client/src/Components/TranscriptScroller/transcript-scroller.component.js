@@ -42,7 +42,6 @@ export default function Scrollbar() {
     poppingList(intents, currSpeaker);
     setIsIntents(currSpeaker === "User:");
 
-    console.log(speechList, "POPPED LIST");
     if (currSpeaker === "Bot:") {
       resetQuestion(intents);
     }

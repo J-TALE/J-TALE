@@ -71,7 +71,6 @@ export default function RecoverSession() {
   // recovers flow from DB and sets current_qa context state
   const LoadSession = (startingQA, flow, questionsObj) => {
     setInfoMsg("");
-    // console.log("Starting QA: ", startingQA);
     setNextQuestions(questionsObj.next);
     setAllQuestions(questionsObj.all);
 

@@ -4,7 +4,6 @@ export default class uploadFileDAO {
   async uploadFile(transcript) {
     try {
       const res = await server.post("/transcript/add", transcript);
-      console.log("Transcript Uploaded!");
       return res.data.id;
     } catch (e) {
       return false;
@@ -14,7 +13,6 @@ export default class uploadFileDAO {
   async deleteFile(id) {
     try {
       await server.delete("/transcript/delete/" + id);
-      console.log("Transcript Deleted!");
       return true;
     } catch (e) {
       return false;

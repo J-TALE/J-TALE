@@ -5,7 +5,6 @@ export default class createFlowDAO {
   async uploadFlow(flow) {
     try {
       const res = await server.post("/flow/add", flow);
-      console.log("Flow Uploaded!");
       return { status: true, res: res };
     } catch (e) {
       return { status: false };
